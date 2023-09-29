@@ -15,10 +15,9 @@ var n = 4
 var resultingValue = x * (x * n)
 console.log(resultingValue)
 
-var a = 20
-var x = a + 10
-var y = a - 10
-var z = a % 10
-product = x * y * z
-certainValue2= a/product
+var a = 5;
+var x = a + 10;
+var y = a - 10;
+var z = a % 10;
+var certainValue2= a/(x*y*z)
 console.log(certainValue2)
